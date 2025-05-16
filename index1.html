@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <style>
+        img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border: 3px solid transparent;
+        }
+        img:focus, img:hover {
+            border-color: #007BFF;
+            outline: none;
+        }
+    </style>
+    <script defer src="script.js"></script>
+</head>
+<body onload="initGallery()">
+    <h1>Interactive Photo Gallery</h1>
+    <div id="gallery">
+        <img src="1.jpeg" alt="Golden" />
+        <img src="Akita.jpg" alt="Akita" />
+        <img src="Alaskan.jpg" alt="Alaskan" />
+        <img src="Cane corso.jpg" alt="Cane corso" />
+        <img src="Doberman pinscher.jpg" alt="Doberman pinscher" />
+        <img src="Scottish-Terrier.jpg" alt="Scottish-Terrier" />
+    </div>
+    <script src="java1.js"></script>
+</body>
+</html>
